@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Bien extends Model
 {
-    protected $fillable = ['type_transaction', 'description', 'surface', 'nombre_chambres', 'prix' ];
+    protected $fillable = ['type_transaction', 'description', 'surface', 'nombre_chambres', 'prix', 'ville_id' ];
 }
 
 public function photos() {

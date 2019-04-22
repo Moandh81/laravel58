@@ -22,3 +22,9 @@ Route::post('ajouter_ville', 'VillesController@postVilles' )->name('postVilles')
 Route::get('supprimer_ville/{id}', 'VillesController@deleteVilles' )->name('deleteVilles');
 Route::get('modifier_ville/{id}',  'VillesController@getUpdateVilles' )->name('getUpdateVilles');
 Route::post('modifier_ville/{id}',  'VillesController@postUpdateVilles' )->name('postUpdateVilles');
+
+Route::get('biens', 'BiensController@getBiens')->name('getBiens');
+
+Route::get('ajouter_bien' ,'BiensController@getAddBiens')->name('getAddBiens');
+Route::post('ajouter_bien' ,'BiensController@postAddBiens')->name('postAddBiens');
+
