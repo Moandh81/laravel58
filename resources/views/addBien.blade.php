@@ -88,13 +88,13 @@
                 <div class="form-group">
                     <label for="prix">Prix</label>
                     <input type="number" min="0" step="1" class="form-control" name="prix">
-
+s
                 </div>
 
 
                 <div class="form-group">
                     <label for="photos">Photos du bien</label>
-                    <input type="file" class="form-control-file" name="photos" multiple>
+                    <input type="file" class="form-control-file" name="photos[]" multiple="multiple">
                 </div>
 
                 <div class="form-group">
@@ -109,7 +109,7 @@
 
 
 
-                <button type="submit" class="btn  btn-outline-success btn-lg w-100">Rechercher</button>
+                <button type="submit" class="btn  btn-outline-success btn-lg w-100">Ajouter</button>
             </form>
 
 

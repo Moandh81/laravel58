@@ -28,3 +28,7 @@ Route::get('biens', 'BiensController@getBiens')->name('getBiens');
 Route::get('ajouter_bien' ,'BiensController@getAddBiens')->name('getAddBiens');
 Route::post('ajouter_bien' ,'BiensController@postAddBiens')->name('postAddBiens');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
